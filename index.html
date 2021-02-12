@@ -7,27 +7,35 @@
   <title>Louis Van Steene</title>
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
   <!-- style -->
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="flex-container">
-    <div class="box">
-      <h1>Louis Van Steene</h1>
-      <h2>University of Cambridge</h2>
+    <div itemscope itemtype="https://schema.org/Person" class="box">
+      <h1><span itemprop="givenName">Louis</span> <span itempprop="familyName">Van Steene</span></h1>
+      <h2 itemprop="affiliation">University of Cambridge</h2>
       <div class="links-container">
         <p>Find me at:</p>
         <div class="img-container">
-          <a href="https://github.com/louis-vs" target="_blank">
+          <a itemprop="sameAs" href="https://github.com/louis-vs" target="_blank">
             <img src="images/github.svg" alt="Github">
           </a>
-          <a href="https://www.linkedin.com/in/louis-van-steene/" target="_blank">
+          <a itemprop="sameAs" href="https://www.linkedin.com/in/louis-van-steene/" target="_blank">
             <img src="images/linkedin.svg" alt="LinkedIn">
           </a>
-          <a href="https://twitter.com/louis_vs_" target="_blank">
+          <a itemprop="sameAs" href="https://twitter.com/louis_vs_" target="_blank">
             <img src="images/twitter.svg" alt="Twitter">
+          </a>
+          <a itemprop="sameAs"
+             content="https://orcid.org/0000-0001-5237-5152"
+             href="https://orcid.org/0000-0001-5237-5152"
+             target="orcid.widget"
+             rel="me noopener noreferrer">
+            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+                 alt="ORCID iD icon">https://orcid.org/0000-0001-5237-5152
           </a>
         </div>
       </div>
