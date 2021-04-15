@@ -7,7 +7,6 @@ body {
 }
 
 .flex-container {
-  padding: 10px;
   min-height: 100vh;
 
   display: flex;
@@ -56,4 +55,22 @@ a {
   margin-right: 2px;
   height: 30px;
   width: 30px;
+}
+
+.download-links-container {
+  margin-top: 1em;
+}
+
+.download-links-container ul {
+  padding: 0;
+  list-style: none;
+}
+
+.download-links-container li:before {
+  content: '\2B07';
+  margin-right: 10px;
+}
+
+.download-links-container li {
+  margin-bottom: 0.5rem;
 }
