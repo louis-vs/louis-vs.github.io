@@ -3,7 +3,7 @@ h1, h2, p { margin: 0; }
 body {
   background-color: #111;
   color: #eee;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .flex-container {
@@ -31,6 +31,10 @@ h2 {
   font-size: 1.5rem;
   font-weight: normal;
   font-style: oblique;
+}
+
+h1, h2 {
+  font-family: "Noto Serif", serif;
 }
 
 a {
